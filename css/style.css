@@ -1,0 +1,45 @@
+body{
+    background-color:#ec6f66;
+}
+.grid
+{
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    top:60%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    border: 5px solid black;
+    /* height: 500px; */
+    height: 404px;
+    width: 559px;
+    /* width: 560px; */
+}
+.black
+{
+    width: 50px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+    background: black;
+}
+.white
+{
+    width: 50px;
+    padding: 10px;
+    background-color: white;
+    background: white;
+}
+.result
+{
+    text-align: center;
+    margin-top: 10px;
+}
+#score
+{
+    margin-right: 318px;
+}
+#start
+{
+    margin-right: 444px;
+}
